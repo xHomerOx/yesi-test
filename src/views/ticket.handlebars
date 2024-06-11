@@ -1,0 +1,11 @@
+<body>
+  <div class="container">
+    <h1>Ticket Details</h1>
+    {{#each tickets}}
+      <p>Code: {{code}}</p>
+      <p>Purchase Date: {{purchaseDateTime}}</p>
+      <p>Amount: {{amount}}</p>
+      <p>Purchaser: {{purchaser}}</p>
+    {{/each}}
+  </div>
+</body>
